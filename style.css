@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Ephesis&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Smooch+Sans:wght@100;200;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: rgb(230, 235, 236);
+}
+
+.carte-sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* margin: 170px; */
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 247, 250);
+  box-shadow: 0px 15px 20px rgb(141, 131, 179);
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+  gap: 35px;
+  /* color: aliceblue; */
+}
+
+.result {
+  background: linear-gradient(#3e13cb, #7279c5);
+  text-align: center;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  margin: 0px 5px 0px -30px;
+  color: antiquewhite;
+}
+
+.nombre {
+  background-color: rgb(20, 20, 77);
+  background: linear-gradient(#2e1974, #8991e1);
+  border-radius: 100%;
+  margin: 25px 55px;
+  padding: 30px;
+}
+
+.nombre h1 {
+  font-size: 50px;
+}
+
+.container-2 {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-left: -30px;
+}
+
+button {
+  background-color: #3e13cb;
+  color: aliceblue;
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  box-shadow: 0 0 5px rgb(57, 37, 171), 0 0 25px rgb(57, 37, 171);
+}
+
+button:hover {
+  box-shadow: 0 0 5px rgb(57, 37, 171);
+}
+
+.info-icon-1 {
+  display: flex;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  gap: -7px;
+  justify-content: space-around;
+}
+
+.contenu-1 {
+  background-color: hsla(0, 100%, 67%, 0.2);
+  border-radius: 5px;
+}
+
+.contenu-1 h4 {
+  color: rgba(234, 11, 11, 0.6);
+  padding-right: 75px;
+}
+
+.contenu-2 {
+  background-color: hsla(50, 100%, 67%, 0.39);
+  border-radius: 5px;
+}
+
+.contenu-2 h4 {
+  color: rgba(247, 178, 6, 0.76);
+  padding-right: 75px;
+}
+
+.contenu-3 {
+  background-color: hsla(155, 100%, 67%, 0.153);
+  border-radius: 5px;
+}
+
+.contenu-3 h4 {
+  color: rgba(22, 182, 155, 0.774);
+  padding-right: 75px;
+}
+
+.contenu-4 {
+  background-color: hsla(237, 100%, 67%, 0.144);
+  border-radius: 5px;
+}
+
+.contenu-4 h4 {
+  color: rgba(30, 11, 234, 0.527);
+  padding-right: 75px;
+}
+
+#nombre-sum {
+  color: gray;
+  font-weight: bold;
+}
+
+/* .info-icon-1{
+  display: flex;
+  background-color: hsla(0, 100%, 67%,.2);
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  gap: 5px;
+}
+
+.info-icon-1 h4{
+  color: rgba(234, 11, 11, 0.6);
+}
+
+
+
+
+.info-icon-2{
+  display: flex;
+  background-color: hsla(50, 100%, 67%, 0.39);
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  gap: 5px;
+
+}
+
+
+.info-icon-2 h4{
+  color: rgba(247, 178, 6, 0.76);
+}
+
+
+
+
+
+.info-icon-3{
+  display: flex;
+  background-color: hsla(155, 100%, 67%, 0.153);
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.info-icon-3 h4{
+  color: rgba(22, 182, 155, 0.774);
+
+}
+
+
+.info-icon-4{
+  display: flex;
+  background-color: hsla(237, 100%, 67%, 0.144);
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.info-icon-4 h4{
+  color: rgba(30, 11, 234, 0.527);
+
+} */
+
+#animation {
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    text-shadow: 5px 15px 20px rgb(202, 202, 198);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    align-items: flex-start;
+    background-color: #757ab9;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 310px;
+    height: 800px;
+  }
+  .result {
+    width: 310px;
+    height: 600px;
+    margin-left: 5px;
+  }
+
+  button {
+    margin-left: 35px;
+  }
+}
